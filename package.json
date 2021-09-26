@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "description": "Check if a URL accepts HTTP Range Requests",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "format": "npx prettier --arrow-parens=avoid --print-width=120 --trailing-comma=none --write *.js",
     "serve": "npx http-server --cors",
