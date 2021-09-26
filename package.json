@@ -4,9 +4,9 @@
   "description": "Check if a URL accepts HTTP Range Requests",
   "main": "index.js",
   "scripts": {
-    "format": "npx prettier --write *.js",
+    "format": "npx prettier --arrow-parens=avoid --print-width=120 --trailing-comma=none --write *.js",
     "serve": "npx http-server --cors",
-    "test": "ava --verbose"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -33,6 +33,6 @@
     "cross-fetch": "^3.0.6"
   },
   "devDependencies": {
-    "ava": "^3.12.1"
+    "flug": "^2.1.0"
   }
 }
